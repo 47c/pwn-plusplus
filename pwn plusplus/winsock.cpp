@@ -11,8 +11,6 @@ namespace hooks
 
 			if ( s != packet_constructor::get( ).get_socket( ) ){ packet_constructor::get( ).update_socket( s ); }
 
-			std::string buf_copy = buf;
-
 			auto packet = packet_constructor::get( ).extract_packet_metadata( buf, len );
 			if ( packet.get_identifier( ) == packet_constructor::get( ).get_identifier( packet_position ) ){
 				auto mov_packet = *packet.get_as<packet_constructor::movement_packet_t>( ).extract( );
