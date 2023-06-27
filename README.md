@@ -1,7 +1,7 @@
 
 <h3 align="center">pwn++</h3>
 <p align="center">
-a pwn adventure fully featured <a href="https://www.pwnadventure.com/">pwn adventure 3</a> cheat
+a fully featured <a href="https://www.pwnadventure.com/">pwn adventure 3</a> internal cheat
 </p>
 
 ## about
