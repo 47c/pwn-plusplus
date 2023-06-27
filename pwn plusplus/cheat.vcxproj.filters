@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>pre</Filter>
+    </ClInclude>
+    <ClInclude Include="mem_search.hpp">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="virtual_calls.hpp">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="hooking.hpp">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks.hpp">
+      <Filter>hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.hpp">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.hpp">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="user_interface.hpp">
+      <Filter>user interface</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>user interface\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>user interface\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\backend\imgui_impl_dx11.h">
+      <Filter>user interface\imgui\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\backend\imgui_impl_win32.h">
+      <Filter>user interface\imgui\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>user interface\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>user interface\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>user interface\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>user interface\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="player.hpp">
+      <Filter>definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.hpp">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="options.hpp">
+      <Filter>user interface</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>pre</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.hpp">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="client_world.hpp">
+      <Filter>definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="miscellaneous.hpp">
+      <Filter>definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="actor.hpp">
+      <Filter>definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="matrices.hpp">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="math.hpp">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="item.hpp">
+      <Filter>definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="movement.hpp">
+      <Filter>cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="tick_data.hpp">
+      <Filter>cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="packet_constructor.hpp">
+      <Filter>cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="drop.hpp">
+      <Filter>definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="antiaim.hpp">
+      <Filter>cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="aimbot.hpp">
+      <Filter>cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="auto_quest.hpp">
+      <Filter>cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="game_server_connection.hpp">
+      <Filter>definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="cppystruct\cppystruct.h">
+      <Filter>utilities\cppystruct</Filter>
+    </ClInclude>
+    <ClInclude Include="cppystruct\cppystruct\unpack.h">
+      <Filter>utilities\cppystruct\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="cppystruct\cppystruct\format.h">
+      <Filter>utilities\cppystruct\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="cppystruct\cppystruct\pack.h">
+      <Filter>utilities\cppystruct\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="cppystruct\cppystruct\string.h">
+      <Filter>utilities\cppystruct\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="cppystruct\cppystruct\data_view.h">
+      <Filter>utilities\cppystruct\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="cppystruct\cppystruct\calcsize.h">
+      <Filter>utilities\cppystruct\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="refill_ammo.hpp">
+      <Filter>cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="console.hpp">
+      <Filter>utilities\console</Filter>
+    </ClInclude>
+    <ClInclude Include="ue4.hpp">
+      <Filter>definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="visuals.hpp">
+      <Filter>cheats</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="mem_search.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="client_world.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="game_api.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="offsets.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="user_interface.cpp">
+      <Filter>user interface</Filter>
+    </ClCompile>
+    <ClCompile Include="directx.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\backend\imgui_impl_dx11.cpp">
+      <Filter>user interface\imgui\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\backend\imgui_impl_win32.cpp">
+      <Filter>user interface\imgui\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>user interface\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>user interface\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>user interface\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>user interface\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>user interface\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="winapi.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>pre</Filter>
+    </ClCompile>
+    <ClCompile Include="actor.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="game_server_connection.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="winsock.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="console.cpp">
+      <Filter>utilities\console</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="pre">
+      <UniqueIdentifier>{aa403780-d83a-4d8e-9521-3c08d2801227}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utilities">
+      <UniqueIdentifier>{d8c01c16-0faf-4749-bee3-99e600ae71a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hooks">
+      <UniqueIdentifier>{f6fb5933-a4fa-4240-8c88-ec2169660b2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="user interface">
+      <UniqueIdentifier>{54627dfe-89ee-4bcb-becb-c04e41d25a93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="user interface\imgui">
+      <UniqueIdentifier>{3f23e3d2-fd8a-4d5c-9e19-089c10a3170a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="user interface\imgui\backend">
+      <UniqueIdentifier>{f0bea147-fa49-47b7-97a2-875ef9062b57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="definitions">
+      <UniqueIdentifier>{46ccbd0e-4d4c-4cbe-9dc0-e7e5e4c32cde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheats">
+      <UniqueIdentifier>{c3f0ea16-0a9b-4d28-b2c8-f5aa53b13454}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utilities\cppystruct">
+      <UniqueIdentifier>{a6d62b61-85ac-4a1e-9f7a-5c22a963e7a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utilities\cppystruct\backend">
+      <UniqueIdentifier>{284d86c3-c3b6-421d-8001-8233889ebe82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utilities\console">
+      <UniqueIdentifier>{703a42c0-ce93-4569-baf3-5150efc45234}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
